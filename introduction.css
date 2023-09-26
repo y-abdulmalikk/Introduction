@@ -1,5 +1,97 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* margin: 0; */
+    padding: 0%;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:#272A41 ;
+    padding-left:5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+}
+
+.container{ 
+    background-color: #141729;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    gap: 2rem;
+}
+.container2{
+    color: white;
+    /* margin-right: 1rem; */
+}
+#picspan{
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+span{ 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#whitebg{
+ background-color: #FFFFFF;
+ color: #141729;
+
+}
+.items-1{
+justify-content: space-between;
+display: flex;
+
+}
+.items-2{
+    display: flex;
+    color: white;
+    gap: 5%;
+}
+
+input{
+    flex-grow: 1;
+    background-color: #2D3041;
+    color: #BABBC1;
+    border: none;
+    border-radius: 5px;
+    padding: 3% 2%;
+}
+
+#ea{
+    background-color: #FF8C00;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+#textbox{
+    gap: 2%;
+    display: flex;
+    padding-bottom: 1%;
+}
+.kobo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+   
+}
+.orange{
+    color: #FF8C00;
+
+}
+h1{
+font-size: 3rem;
+}
+#topmid{
+    gap: 2rem;
+}
+#end{
+    gap: 1rem;
 }
